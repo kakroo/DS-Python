@@ -1,2 +1,2 @@
-# laughing-meme
+# DS-Python
 Data Structures in Python
