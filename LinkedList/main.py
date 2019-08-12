@@ -14,10 +14,13 @@ second = Node(2)
 third = Node(3)
 
 # Assign 1st next to 2nd
-l_list.head.next = second
+# l_list.head.next = second
+
+l_list.addNodeStart(10)
+l_list.addNodeEnd(11)
 
 # Then 2nd next to 3rd node.
-second.next = third
+# second.next = third
 
 # TRAVERSAL
 l_list.getLinkedList()
