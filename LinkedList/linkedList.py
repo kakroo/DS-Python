@@ -22,12 +22,13 @@ class LinkedList:
         self.head = newNode
 
     # # O(N)
-    # def addNodeEnd(self, data):
-    #     # Create new node from the given data
-    #     newNode = Node(data)
+    def addNodeEnd(self, data):
+        # Create new node from the given data
+        newNode = Node(data)
 
-    #     temp = self.head
-    #     while temp:
-    #         if temp.next is None:
-    #             temp.next = newNode
-    #         break
+        temp = self.head
+        # Traverse till end of the Linked List
+        while temp.next:
+            temp = temp.next
+        # Assign the new node to the next of last node
+        temp.next = newNode

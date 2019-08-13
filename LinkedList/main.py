@@ -10,11 +10,11 @@ from node import Node
 l_list = LinkedList()
 # Assign the head to newly created node
 l_list.head = Node(1)
-second = Node(2)
-third = Node(3)
+# second = Node(2)
+# third = Node(3)
 
 # Assign 1st next to 2nd
-# l_list.head.next = second
+# l_list.head.next = second # This can be replced by addNodeEnd
 
 l_list.addNodeStart(10)
 l_list.addNodeEnd(11)
