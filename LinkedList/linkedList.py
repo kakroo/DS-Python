@@ -16,12 +16,12 @@ class LinkedList:
     def addNodeStart(self, data):
         # Create new Node obj with the data
         newNode = Node(data)
-        # assign the current head to the new node next
+        # assign the current head to the new node next 
         newNode.next = self.head
         # Assign the initial head to the new node
         self.head = newNode
 
-    # # O(N)
+    # # O(N) This is because we have to traverse to end
     def addNodeEnd(self, data):
         # Create new node from the given data
         newNode = Node(data)
